@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Electoral College Data Analysis Project</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/profile-pic.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Electoral College Data Analysis Project</h1>
+
+        <object data="data/results.html" type="text/html" class="test-class"></object>
+        <!-- <iframe src="data/results.html" width="50%" height="300px"></iframe> -->
+
+    </main>
+
+    <footer>
+        <p>
+            <script>
+                const thisYear = new Date().getFullYear();
+                if (thisYear === 2024) {
+                    document.write(`Copyright © 2024 `);
+                } else {
+                    document.write(`Copyright © 2024-${thisYear} `);
+                }
+            </script>
+            <a class="credits-link" href="https://github.com/mjbrechner">M.J. Brechner</a>
+        </p>
+    </footer>
+    <script src="javascript/index.js" defer></script>
+</body>
+
+</html>

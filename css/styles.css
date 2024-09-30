@@ -1,0 +1,71 @@
+
+* {
+    background-color: oldlace;
+    color: darkblue;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+object,
+iframe {
+    display: flex;
+    background-color: oldlace;
+    color: darkblue;
+    width: 95%;
+    height: 35em;
+}
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(231, 224, 210);
+    box-shadow: inset 0 0 .25em darkblue;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(74, 74, 122);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: darkblue;
+}
+
+
+table {
+    background-color: oldlace;
+    color: darkblue;
+    border: 1px solid darkblue;
+    table-layout: auto;
+    width: 150%;
+}
+
+thead th {
+    background-color: darkblue;
+    color: oldlace;
+    /* font-size: 1.25em; */
+}
+
+thead th:nth-child(1) {
+    text-align: center;
+}
+
+/* td:nth-child(1) {
+    background-color: darkblue;
+    color: bisque;
+    border: none;
+    width: 1000px;
+    table-layout: fixed;
+} */
+
+tbody>tr>td:first-of-type {
+    background-color: darkblue;
+    color: oldlace;
+    font-size: 1.25em;
+    /* table-layout: fixed; */
+}
